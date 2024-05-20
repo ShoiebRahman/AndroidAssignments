@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidAssignments</string>
-    <string name="hello_text">Hello World! Welcome to my App!</string>
+    <string name="hello_text">Salaam! Yeh mera app hai!</string>
     <string name="button_text">I\'m a Button</string>
     <string name="login_text">Login</string>
     <string name="pass_text">Password</string>

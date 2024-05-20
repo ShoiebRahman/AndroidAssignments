@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidAssignments</string>
+    <string name="hello_text">Bonjour le monde! Bienvenue sur mon application!</string>
+    <string name="button_text">I\'m a Button</string>
+    <string name="login_text">Se Connecter</string>
+    <string name="pass_text">Mot de passe</string>
+    <string name="login_hint">Nom d\'utilisateur connexion</string>
+    <string name="pass_hint">Mot de passe</string>
+    <string name="switch_text">Qu\'est-ce que cela fait?</string>
+    <string name="radio_text">Bouton radio</string>
+    <string name="checkbox_text">Case à cocher</string>
+    <string name="imagebutton_text">Bouton Image de la caméra</string>
+    <string name="img_button_desc">Bouton Image</string>
+
+</resources>
