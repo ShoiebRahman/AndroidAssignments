@@ -13,4 +13,17 @@
     <string name="imagebutton_text">Bouton Image de la caméra</string>
     <string name="img_button_desc">Bouton Image</string>
 
+    <string name="login_msg">E-mail de connexion Enregistré</string>
+    <string name="preference_name">loginPref</string>
+    <string name="preference_key_profile_email">E-mail de connexion Enregistré</string>
+    <string name="dialog_msg">Voulez-vous quitter l\'activité?</string>
+    <string name="dialog_title">Quitter l\'activité</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Annuler</string>
+    <string name="incr_email">Nom d\'utilisateur invalide. Essayer à nouveau.</string>
+    <string name="incr_passwd">Mot de passe incorrect. Essayer à nouveau.</string>
+    <string name="switch_on">L\'interrupteur est allumé</string>
+    <string name="switch_off">L\'interrupteur est éteint</string>
+    <string name="msgListItems">ListItemsActivity réussi : Mes informations à partager.</string>
+
 </resources>

@@ -22,6 +22,7 @@
         android:paddingEnd="2dp"/>
 
     <EditText
+        android:id="@+id/edit_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="username"
@@ -38,11 +39,19 @@
         android:paddingEnd="2dp"/>
 
     <EditText
+        android:id="@+id/edit_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints="password"
         android:hint="@string/pass_hint"
         android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text"
+        android:onClick="onLoginClicked"/>
 
 
 </LinearLayout>

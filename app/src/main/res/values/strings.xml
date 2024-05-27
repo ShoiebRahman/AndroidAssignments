@@ -11,4 +11,23 @@
     <string name="checkbox_text">Checkbox</string>
     <string name="imagebutton_text">Camera Image Button</string>
     <string name="img_button_desc">Image Button</string>
+
+    <string name="login_msg">Login email Saved</string>
+    <string name="preference_name">loginPref</string>
+    <string name="preference_key_profile_email">Login email Saved</string>
+    <string name="dialog_msg">Do you want to exit Activity?</string>
+    <string name="dialog_title">Exit Activity</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="incr_email">Invalid Username. Try Again.</string>
+    <string name="incr_passwd">Invalid Password. Try Again.</string>
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+    <string name="msgListItems">ListItemsActivity passed: My Information to Share.</string>
+
+
+
+
+
+
 </resources>

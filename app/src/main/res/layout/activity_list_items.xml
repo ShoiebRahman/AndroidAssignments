@@ -33,7 +33,7 @@
         android:paddingBottom="16dp"
         android:text="@string/checkbox_text" />
 
-    <com.google.android.material.switchmaterial.SwitchMaterial
+    <Switch
         android:id="@+id/switch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +42,8 @@
         android:layout_columnWeight="1"
         android:gravity="fill"
         android:paddingBottom="20dp"
-        android:text="@string/switch_text" />
+        android:text="@string/switch_text"
+        android:checked="false"/>
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -50,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_row="1"
         android:layout_column="1"
+        android:onClick="onImageClicked"
         app:srcCompat="@android:drawable/ic_menu_camera"
         android:layout_columnWeight="1"
         android:contentDescription="@string/img_button_desc"/>
