@@ -97,10 +97,12 @@ public class ListItemsActivity extends AppCompatActivity {
     }
 
     public void onImageClicked(View v) {
-        Log.i("ListItemsActivity", "Image Button Clicked");
+        debugPrint("DEBUG: Image Button Clicked");
+        //Log.i("ListItemsActivity", "Image Button Clicked");
         Intent takePictureIntent =
                 new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivityForResult(takePictureIntent, 11);
+
 
     }
 
