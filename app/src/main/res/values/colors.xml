@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gold">#F0A415</color>
+    <color name="gold_tint">#25E38F29</color>
+
+    #E38F29
 </resources>

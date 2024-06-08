@@ -15,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    String tag = "MainActivity";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,12 @@ public class MainActivity extends AppCompatActivity {
         Intent newIntent = new Intent(MainActivity.this,
                 ListItemsActivity.class);
         startActivityForResult(newIntent, 10);
+
+    }
+
+    public void onStartChatClicked(View v){
+
+        Log.i(tag, "User clicked on Start Chat button");
 
     }
     @Override

@@ -26,8 +26,9 @@
     <string name="msgListItems">ListItemsActivity passed: My Information to Share.</string>
 
 
-
-
+    <string name="start_chat">Start Chat</string>
+    <string name="hint_chat_text">Type a Message</string>
+    <string name="send">Send</string>
 
 
 </resources>
