@@ -26,4 +26,8 @@
     <string name="switch_off">L\'interrupteur est éteint</string>
     <string name="msgListItems">ListItemsActivity réussi : Mes informations à partager.</string>
 
+    <string name="start_chat">Démarrer la discussion</string>
+    <string name="hint_chat_text">Tapez un message</string>
+    <string name="send">Envoyer</string>
+
 </resources>

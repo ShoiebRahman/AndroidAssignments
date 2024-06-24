@@ -1,0 +1,78 @@
+@startuml
+'https://plantuml.com/class-diagram
+package com.example.androidassignments {
+    class LoginActivity {
+        - EditText usernm
+        - EditText passwd
+        + void OnCreate()
+        + void VerifyInput()
+        + void onLoginClicked()
+        + boolean verifyInput()
+        + void saveUserData()
+        + void loadUserData()
+        + void onResume()
+        + void onStart()
+        + void onPause()
+        + void onStop()
+        + void onDestroy()
+
+    }
+
+    class MainActivity {
+
+        + void onButtonClicked()
+        + void onStartChatClicked()
+        + void onActivityResult(()
+        + void OnCreate()
+        + void onResume()
+        + void onStart()
+        + void onPause()
+        + void onStop()
+        + void onDestroy()
+    }
+
+    class ChatWindow {
+
+        - private ListView chatListView
+        - private EditText chatText
+        - private Button sendButton
+        - private ArrayList<String> chatMsgs
+
+        + protected void onCreate()
+        + public void onClick()
+
+
+    }
+
+    class ListItemsActivity {
+        - Switch switchButton;
+        - CheckBox checkboxButton;
+
+        + protected void onCreate()
+        + public void debugPrint()
+        + public void onImageClicked()
+        + public void onActivityResult()
+        + void onResume()
+        + void onStart()
+        + void onPause()
+        + void onStop()
+        + void onDestroy()
+    }
+    class ChatAdapter {
+        + public ChatAdapter()
+        + public int getCount()
+        + public String getItem()
+        + public View getView()
+    }
+}
+
+    LoginActivity --> MainActivity
+    MainActivity --> ListItemsActivity
+    MainActivity --> ChatWindow
+    ListItemsActivity --> MainActivity
+    ChatWindow --> MainActivity
+    ChatAdapter *-> ChatWindow
+
+
+
+@enduml

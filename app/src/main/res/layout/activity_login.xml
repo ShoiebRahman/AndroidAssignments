@@ -8,8 +8,8 @@
     android:layout_height="match_parent"
     android:background="#8A41A0AC"
     android:orientation="vertical"
-    android:paddingTop="25dp"
     tools:context=".LoginActivity"
+    android:layout_marginTop="?android:attr/actionBarSize"
     >
 
     <TextView

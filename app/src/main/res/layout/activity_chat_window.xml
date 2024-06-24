@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".ChatWindow"
     android:padding="10dp"
+
     android:fillViewport="true">
 
     <ListView
