@@ -8,10 +8,10 @@
       <SelectionState runConfigName="MainActivityTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="loginActivityTest()">
+      <SelectionState runConfigName="AppInstrumentalTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="AppInstrumentalTest">
+      <SelectionState runConfigName="ToolbarInstrumentalTest">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>

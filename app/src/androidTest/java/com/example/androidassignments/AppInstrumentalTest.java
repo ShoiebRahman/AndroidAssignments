@@ -96,40 +96,4 @@ public class AppInstrumentalTest {
         onView(withId(R.id.send_button)).perform(click());
         Thread.sleep(5000);
     }
-
-    /*@Test
-    public void testInitialTextViewState() {
-        // Check that the text view has the initial text "Initial Text"
-        assertNotNull(textView);
-        //assertEquals("Initial Text", textView.getText().toString());
-    }*/
-
-    //@Test
-    /*public void testButtonClick() throws InterruptedException {
-        // Simulate button click
-
-        // Perform a click on the button with ID button
-        onView(withId(R.id.main_button)).perform(click());
-
-        Thread.sleep(5000);
-        // Verify that an intent was sent to launch NewActivity
-        intended(hasComponent(ListItemsActivity.class.getName()));
-        activity.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                //button.performClick();
-            }
-        });
-
-        // Give some time for the UI to update
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        // Check that the text view has the text "Hello World!"
-        assertNotNull(textView);
-        //assertEquals("Hello World!", textView.getText().toString());
-    }*/
 }

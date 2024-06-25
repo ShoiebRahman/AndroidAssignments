@@ -16,6 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAssignments"
         tools:targetApi="31">
+        <activity
+            android:name=".TestToolbar"
+            android:exported="false"
+            android:theme="@style/Theme.AndroidAssignments" />
 
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
@@ -25,14 +29,10 @@
             android:name=".ChatWindow"
             android:exported="true"
             android:parentActivityName=".MainActivity" />
-
-
         <activity
             android:name=".ListItemsActivity"
             android:exported="true"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".LoginActivity"
             android:exported="true">
@@ -41,14 +41,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:parentActivityName=".LoginActivity">
-
-        </activity>
+            android:parentActivityName=".LoginActivity"></activity>
     </application>
 
 </manifest>

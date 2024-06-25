@@ -47,6 +47,15 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(newIntent, 10);
 
     }
+
+    public void onTestToolbarClicked(View v){
+
+        Log.i(tag, "User clicked on TestToolbar button");
+        Intent newIntent = new Intent(MainActivity.this,
+                TestToolbar.class);
+        startActivityForResult(newIntent, 10);
+
+    }
     @Override
     public void onActivityResult(int requestCode, int responseCode, Intent data){
         super.onActivityResult(requestCode, responseCode, data);
