@@ -44,11 +44,11 @@
         android:id="@+id/start_chat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="24dp"
         android:onClick="onStartChatClicked"
         android:text="@string/start_chat"
-        app:layout_constraintEnd_toEndOf="@+id/main_button"
+        app:layout_constraintStart_toStartOf="@+id/main_button"
         app:layout_constraintTop_toBottomOf="@+id/main_button" />
 
     <Button
@@ -61,5 +61,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/start_chat" />
+
+    <Button
+        android:id="@+id/weather_forecast_launch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/weather_forecast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/test_toolbar_button"
+        android:onClick="onWeatherForecastClicked"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

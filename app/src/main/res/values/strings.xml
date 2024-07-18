@@ -38,6 +38,16 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
+    <string name="weather_forecast">Weather Forecast</string>
+    <string-array name="cities_array">
+        <item>Toronto</item>
+        <item>Waterloo</item>
+        <item>Vancouver</item>
+        <item>Windsor</item>
+        <item>Calgary</item>
+        <item>Guelph</item>
+    </string-array>
+
 
 
     <!-- Strings used for fragments for navigation -->

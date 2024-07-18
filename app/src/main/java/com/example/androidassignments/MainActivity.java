@@ -48,6 +48,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void onWeatherForecastClicked(View v){
+
+        Log.i(tag, "User clicked on Weather Forecast button");
+        Intent newIntent = new Intent(MainActivity.this,
+                WeatherForecast.class);
+        startActivityForResult(newIntent, 10);
+
+    }
+
     public void onTestToolbarClicked(View v){
 
         Log.i(tag, "User clicked on TestToolbar button");
